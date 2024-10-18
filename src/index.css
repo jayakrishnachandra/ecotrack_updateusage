@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link-custom {
+  color: rgb(0, 137, 193)!important;   
+  font-family: Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px !important;
+  font-weight: bold !important;
+  /* border: 2px solid white !important;
+  border-radius: 10px;
+  padding: 0 10px 0 10px !important;
+  margin: 0 10px 0 10px; */
+}
+.branding {
+  display: flex;               /* Use flexbox for alignment */
+  align-items: center;        /* Center vertically */
+  margin-right: auto;         /* Push the branding to the left */
+}
+.branding-text {
+  font-weight: bold;       /* Make text bold */
+  font-size: 40px  !important;        /* Increase font size for branding */
+  color: rgb(0, 137, 193);        /* Set text color to dark blue */
+  margin:0 50px 0 30px;           /* Remove default margin */
+}
+
+
+.nav-link-active {
+  background-color: rgb(227, 242, 253);
+  border-radius: 10px;
+}
