@@ -67,7 +67,3 @@
 If you have ideas for improving **EcoTrack**, feel free to **fork the repository** and submit a **pull request**.  
 
 ---
-
-## <span style="color:rgb(8, 127, 164);">**License**</span>
-
-This project is licensed under the **MIT License**. See the `LICENSE` file for more details.  
