@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# **EcoTrack**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**EcoTrack** is a comprehensive application designed to monitor and manage water and electricity usage in **real-time**. It offers users a **user-friendly interface** to track consumption trends, simulate IoT device data, and view insightful analytics to encourage sustainable resource usage.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## <span style="color:rgb(8, 127, 164);">**Features**</span>
 
-### `npm start`
+- **Real-Time Dashboard**:  
+  View **live updates** of water and electricity usage through visually appealing **charts** and **progress indicators**.  
+- **Data Simulation**:  
+  Simulate **IoT device inputs** for testing and analysis without requiring actual IoT hardware.  
+- **Analytics**:  
+  Gain **insights** into daily consumption trends for better resource management.  
+- **Secure Authentication**:  
+  Use **token-based authentication** for secure data transactions.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## <span style="color:rgb(8, 127, 164);">**Components**</span>
 
-### `npm test`
+### **1. Dashboard**  
+- **URL**: [EcoTrack Dashboard](https://jayakrishnachandra.github.io/ecotrack_frontend/)  
+- **Purpose**: Displays **real-time usage data** with interactive **charts** and **progress indicators**.  
+- **Key Features**:  
+  - Daily **water and electricity usage statistics**.  
+  - **Real-time updates** with a smooth user experience.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **2. Data Simulation**  
+- **URL**: [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/)  
+- **Purpose**: Allows users to input **random values** to simulate IoT device data.  
+- **Key Features**:  
+  - Flexible **data entry** for water and electricity usage.  
+  - Updates **reflected instantly** on the dashboard.  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## <span style="color:rgb(8, 127, 164);">**Usage Instructions**</span>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **Step 1: Sign In**  
+1. Open both the [EcoTrack Dashboard](https://jayakrishnachandra.github.io/ecotrack_frontend/) and the [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/) applications.  
+2. Sign in to both applications using your credentials.  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### **Step 2: Start Simulation**  
+1. Navigate to the [EcoTrack Data Simulation](https://jayakrishnachandra.github.io/ecotrack_updateusage/) page.  
+2. Click the **Start Simulate** button to begin data simulation.
+3. You can also test with manual inputs if desired.
 
-### `npm run eject`
+### **Step 3: View Dashboard**  
+1. Switch to the [EcoTrack Dashboard](https://jayakrishnachandra.github.io/ecotrack_frontend/).  
+2. View **live updates** and analyze the data being simulated.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## <span style="color:rgb(8, 127, 164);">**Tech Stack**</span>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend**: React.js  
+- **Backend**: Spring Boot  
+- **Database**: MongoDB  
+- **Deployment**: GitHub Pages (Frontend & Simulation)  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## <span style="color:rgb(8, 127, 164);">**Contribution**</span>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Contributions are welcome!**  
+If you have ideas for improving **EcoTrack**, feel free to **fork the repository** and submit a **pull request**.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## <span style="color:rgb(8, 127, 164);">**License**</span>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the **MIT License**. See the `LICENSE` file for more details.  
